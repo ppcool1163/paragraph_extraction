@@ -41,7 +41,7 @@ def GetKeywords(input_list):
 # model --> The keyword extraction model to be used. Options are Rake or MonkeyLearn
 # API_token --> API token for MonkeyLearn. Default value is mine. Optional argument, needed only if model is MonkeyLearn Limited to 300 queries per month in the free account. 
 # Return value: consolidated--> A dictionary containing paragraph string (key--> paragraph), paragraph ID(key--> para_ID) and keywords (key--> keywords)
-def createMasterDict(input_list,model, API_token ='06f65ed21f102ecd78427152869791eb66fe5772' ):
+def createMasterDict(input_list,model, API_token ='<type Your API Key Here>' ):
     if model in ["MonkeyLearn","ML","ml","monkeylearn"]:
         ml = MonkeyLearn(API_token)    
         model_id = 'ex_YCya9nrn'
