@@ -104,5 +104,5 @@ def helps():
     print("\nkeyword_search(master_dict,keyword_list): Running the search for a keyword")
     print("master_dict --> dictionary with keywords, paragraph_IDs and paragraphs; The create_master_dict() returns the dictionary to be used here")
     print("keyword_list --> A list of keywords to search for")
-    print("Return value: para_ID_list--> A list of pargraph IDs that contain the searched keywords. This can be used to access the required paragraphs from the input dictionary\n")
+    print("Return value: para--> A list of pargraph that contain the searched keywords.\n")
     return 0
