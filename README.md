@@ -24,3 +24,5 @@ I have 5 functions in the model
 
 <b>helps</b>: This functions is to help you through the process. It prints out process to use this model.
 
+# Adding this feature with other file formats like PDF, Docx and images that contains text
+To use this model in other file formats(mentioned above) other than text file the task is to get the text out of the other file and save it into the tet format. Don't worry, I have made another repo that extracts text from the files. this is the link to it https://github.com/ppcool1163/Extract-text
