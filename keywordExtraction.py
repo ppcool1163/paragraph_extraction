@@ -1,4 +1,4 @@
-from monkeylearn import MonkeyLearn
+#from monkeylearn import MonkeyLearn (I was using monkeylearn for this but since it is a paid API i shifted to Rake)
 from rake_nltk import Rake
 import pprint
 
